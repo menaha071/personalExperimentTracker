@@ -9,7 +9,7 @@ A Personal Experiment Tracker is a web application that helps users create and m
 - Reminders & Notifications
 - Tagging & Filtering
 
-#Structure
+# Structure
 personal-experiment-tracker/
 - app.py                  # Main Flask app
 - config.py              # Config (DB, secret keys)
