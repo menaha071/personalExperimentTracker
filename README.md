@@ -11,23 +11,23 @@ A Personal Experiment Tracker is a web application that helps users create and m
 
 #Structure
 personal-experiment-tracker/
-app.py                  # Main Flask app
-config.py              # Config (DB, secret keys)
-requirements.txt
+- app.py                  # Main Flask app
+- config.py              # Config (DB, secret keys)
+- requirements.txt
 
-/models                # Database models
+- /models                # Database models
 user.py
 experiment.py
 entry.py
 tag.py
 
-/routes                # All routes (API / pages)
+- /routes                # All routes (API / pages)
 auth_routes.py
 experiment_routes.py
 entry_routes.py
 dashboard_routes.py
 
-/templates             # HTML pages
+- /templates             # HTML pages
 home.html [done]
 login.html [done]
 register.html [done]
@@ -35,11 +35,11 @@ dashboard.html [done]
 experiment.html [done]
 analytics.html [done]
 
-/static                # CSS, JS
+- /static                # CSS, JS
 css/
 js/
 
-/utils                 # Helper functions
+- /utils                 # Helper functions
 auth.py
 reminders.py
 
