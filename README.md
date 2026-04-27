@@ -15,19 +15,19 @@ personal-experiment-tracker/
 - config.py              # Config (DB, secret keys)
 - requirements.txt
 
-- /models                # Database models
+- /models                
 user.py, experiment.py, entry.py, tag.py
 
-- /routes                # All routes (API / pages)
+- /routes                
 auth_routes.py, experiment_routes.py, entry_routes.py, dashboard_routes.py
 
-- /templates             # HTML pages
+- /templates             
 home.html [done], login.html [done], register.html [done], dashboard.html [done],  experiment.html [done], analytics.html [done]
 
-- /static                # CSS, JS
+- /static                
 css/, js/
 
-- /utils                 # Helper functions
+- /utils                
 auth.py, reminders.py
 
 /instance
